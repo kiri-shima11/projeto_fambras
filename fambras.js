@@ -10,3 +10,15 @@ if (login === logincadastrado && senha === senhacadastrada){
 }else{
     alert('Login e senha não estão cadastrados.');
 }
+
+let suino = prompt('Há suínos na planta?');
+
+function aprovarPlanta(){
+    if(suino == 'sim'){
+        alert('Reprovado por ter suíno na planta');
+    }else{
+        alert('Pode seguir com o processo.');
+    }
+}
+
+aprovarPlanta(); 
